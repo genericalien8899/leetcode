@@ -17,7 +17,8 @@ You must do this by modifying the input array [in-place](https://en.wikipedia.o
 - `1 <= s.length <= 105`
 - `s[i]` is a [printable ascii character](https://en.wikipedia.org/wiki/ASCII#Printable_characters).
 
-<h1> Soln </h1?>
+<h1> Soln </h1>
+
 ```java
 class Solution {
     public void reverseString(char[] s) {
