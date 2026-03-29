@@ -32,9 +32,8 @@ You can return the answer in any order.
 
 **Follow-up:** Can you come up with an algorithm that is less than `O(n2)` time complexity?
 
-
-
-
+<h1> Soln </h1>
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
        int list[] = new int[2];
@@ -61,10 +60,12 @@ class Solution {
         return list;
     }
 }
+```
 
 
-LeetCode Solution : 
+<h1> LeetCode Solution : </h1> 
 
+```java
 class Solution {
     // Time: O(n)
     // Space: O(n)
@@ -75,11 +76,13 @@ class Solution {
             // cur + x = target
             // x = target - cur
             int x = target - cur;
-            if (map.containsKey(x)) {
+            if (map.containsKey(x)) 
+            {
                 return new int[]{map.get(x), i};
             }
             map.put(cur, i);
         }
         return null;
     }
-}
+```
+
