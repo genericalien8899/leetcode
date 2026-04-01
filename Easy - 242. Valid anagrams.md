@@ -19,6 +19,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `
 
 <h1> Solution </h1>
 ```java
+
 class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length())
@@ -67,7 +68,9 @@ class Solution {
 ```
 
 <h1>LeetCode Solution </h1>
+
 ```java
+
 class Solution {
     public boolean isAnagram(String s, String t) {
         char[] sArr = s.toCharArray();
