@@ -18,6 +18,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `
 - `s` and `t` consist of lowercase English letters.
 
 <h1> Solution </h1>
+
 ```java
 
 class Solution {
