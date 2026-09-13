@@ -25,6 +25,7 @@ Given an integer `x`, return `true` _if_ `x` _is a_ _**palindrome**__, and
 **Follow up:** Could you solve it without converting the integer to a string?
 
 <h1>Solution1</h1>
+
 ```java
 class Solution {
     public boolean isPalindrome(int x) {
