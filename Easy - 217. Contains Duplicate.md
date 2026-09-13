@@ -18,6 +18,7 @@ All elements are distinct.
 - `-109 <= nums[i] <= 109`
 
 <h1>Solution</h1>
+
 ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
