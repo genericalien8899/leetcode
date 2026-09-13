@@ -46,6 +46,7 @@ class Solution {
 ```
 
 <h1>Solution 2</h1>
+
 ```java
 class Solution {
     public boolean isPalindrome(int x) {
