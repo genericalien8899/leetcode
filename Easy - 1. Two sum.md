@@ -87,7 +87,7 @@ class Solution {
     }
 ```
 
-<h1> Revision solution written <h1>
+<h1> Revision solution written </h1>
 
 ```java
 class Solution {
