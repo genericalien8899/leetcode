@@ -87,3 +87,32 @@ class Solution {
     }
 ```
 
+<h1> Revision solution written <h1>
+
+```java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+    Map<Integer, Integer> elementsRecord = new HashMap<>();
+        if(nums.length > 2)
+        {
+            for(int i = 0;i < nums.length; i++)
+            {
+                int current = nums[i];
+                int other_num = target - current;
+                if(elementsRecord.containsKey(other_num))
+                {
+                    return new int[]{elementsRecord.get(other_num),i};
+                }
+                elementsRecord.put(current,i);
+            }
+        }
+        else
+        {
+            return new int[]{0,1};
+        }
+        return null;
+    }
+}
+```
+</h1>
+
