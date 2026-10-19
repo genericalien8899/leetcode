@@ -87,7 +87,7 @@ class Solution {
     }
 ```
 
-<h1> Revision solution written </h1>
+<h1> Revision solution written 99.49% faster </h1>
 
 ```java
 class Solution {
